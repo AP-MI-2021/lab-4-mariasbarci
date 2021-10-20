@@ -8,7 +8,7 @@ def min_numar(lst,cif):
     rez=[]
     for el in lst:
         if el % 10 ==cif:
-                rez.append(el%10)
+                rez.append(el)
     return rez
 def test_min_numar():
     assert min_numar([1, 6, 34, 68, 40, 48, 20],8)==[48]
